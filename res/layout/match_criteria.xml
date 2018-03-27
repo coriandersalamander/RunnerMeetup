@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/saveButton"
+        android:layout_alignBottom="@+id/saveButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/speedTextArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/locationTextArea"
+        android:layout_below="@+id/locationTextArea"
+        android:layout_marginTop="15dp"
+        android:text="Speed:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/locationTextArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="80dp"
+        android:text="Location:"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/alreadyRejected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/speedTextArea"
+        android:layout_below="@+id/speedTextArea"
+        android:layout_marginTop="22dp"
+        android:text="Include Previous Rejections?" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/alreadyRejected"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+</RelativeLayout>

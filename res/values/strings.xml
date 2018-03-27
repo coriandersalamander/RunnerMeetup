@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RunnerTinder</string>
+    <string name="edit_match_criteria">Edit Match Criteria</string>
+    <string name="actionBarTitle">Runner Tinder</string>
+    <string name="period">Period </string>
+    <string name="userPrefs">User Preferences </string>
+    <string name="infoButton">Info</string>
+    <string name="studentLiteral">Student 1</string>
+    <string name="uaLoginString">UA Login</string>
+    <string name="uaLogoutString">UA Logout</string>
+    <string name="userName">User Name</string>
+    <string name="viewPreviousConnectionsString">View Previous Connections</string>
+    <string name="deleteDatabaseString">Delete Database</string>
+    <string name="settingsString">Settings</string>
+    <string name="mainMenuString">Main Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="this_is_the_profile_picture">This is the profile picture</string>
+    <string name="right_arrow">Right Arrow</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="speed">Speed:</string>
+    <string name="location">Location:</string>
+    <string name="save_user_info">Save User Info</string>
+
+</resources>

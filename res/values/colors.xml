@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActionBarText">#FFFFFF</color>
+    <color name="colorBinghamtonGreen">#005A43</color>
+    <color name="colorBinghamtonBlack">#000000</color>
+    <color name="colorBinghamtonGrey">#C6C7C6</color>
+    <color name="colorBinghamtonYellow">#EBF199</color>
+    <color name="colorBinghamtonDarkGreen">#005a43</color>
+    <color name="colorBinghamtonLightYellow">#ebf199</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_UALogin"
+            android:icon="@android:drawable/presence_online"
+            android:enabled="true"
+            android:title="@string/uaLoginString" />
+        <item
+            android:id="@+id/nav_UALogout"
+            android:icon="@android:drawable/presence_offline"
+            android:enabled="true"
+            android:title="@string/uaLogoutString" />
+    </group>
+
+    <item android:title="@string/viewPreviousConnectionsString"
+        android:icon="@android:drawable/ic_input_add"
+        android:enabled="true"
+        android:id="@+id/nav_viewConnections" />
+    <item
+        android:id="@+id/nav_deleteDB"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:enabled="true"
+        android:title="@string/deleteDatabaseString" />
+
+</menu>
